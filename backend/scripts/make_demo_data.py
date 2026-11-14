@@ -19,7 +19,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-SEED = 4
+SEED = 170
 OUT = Path(__file__).resolve().parents[1] / "buk" / "demo" / "demo_data.json"
 UTC = timezone.utc
 AS_OF = datetime(2026, 11, 14, 8, 0, tzinfo=UTC)
@@ -181,13 +181,20 @@ class Builder:
 
 
 def circle_rounds(team_count: int) -> list[list[tuple[int, int]]]:
+    """Single round robin (circle method) with balanced, alternating home sides."""
     positions = list(range(team_count))
+    hosted = [0] * team_count
+    hosted_last = [False] * team_count
     rounds = []
-    for number in range(team_count - 1):
+    for _ in range(team_count - 1):
         pairs = []
         for i in range(team_count // 2):
             a, b = positions[i], positions[team_count - 1 - i]
-            pairs.append((a, b) if (number + i) % 2 == 0 else (b, a))
+            # Host: fewer home games so far, then the side that played away last time.
+            home, away = (a, b) if (hosted[a], hosted_last[a]) <= (hosted[b], hosted_last[b]) else (b, a)
+            hosted[home] += 1
+            hosted_last[home], hosted_last[away] = True, False
+            pairs.append((home, away))
         rounds.append(pairs)
         positions = [positions[0], positions[-1], *positions[1:-1]]
     return rounds
