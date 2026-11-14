@@ -1,22 +1,22 @@
 {
   "schema": "4b4apps.module/0.1",
-  "status": "proposed; no consumer exists yet; only the private 4b4 Hub may link to 4b4buk (owner decision 2026-11-14)",
+  "status": "proposed; no consumer exists yet; linking policy lives in the hub catalog (4b4studio/studio tools/product/catalog.json, edition 4b4buk); only the private 4b4 Hub may link to it (owner decision 2026-11-14)",
   "id": "4b4buk",
   "name": "4b4buk",
   "description": "Football match discovery and pre-match analysis.",
   "icon": "web/public/icons/icon.svg",
   "entry_url": null,
-  "entry_url_note": "Set when the owner chooses the domain, e.g. https://buk.<brand-domain>/",
+  "entry_url_note": "Set when the owner chooses the domain; a separate registrable domain is recommended for cookie and legal isolation.",
   "open_mode": "top_level_navigation",
   "open_mode_note": "Open in the same or a new window, never in a cross-site iframe (third-party cookie and storage partitioning).",
   "deep_links": {
     "today": "/",
-    "today_list": "/?lista={watch|analysis|odds}",
+    "today_list": "/?lista={watch|analysis}",
     "match": "/mecz/{match_id}"
   },
   "identity": {
     "mode": "shared_oidc_planned",
-    "note": "Until a shared 4b4apps identity provider exists, 4b4buk keeps user data keyed by issuer and subject so it can join the shared account later."
+    "note": "User data keyed by issuer and subject in 4b4buk's own database. The family identity provider is a separate tenant, never 4b4buk's own project."
   },
   "health_url": "/health"
 }

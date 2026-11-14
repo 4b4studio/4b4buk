@@ -63,6 +63,10 @@ PWA (React, Vite)  --HTTPS-->  API (FastAPI)  -->  PostgreSQL
   provider session.
 - Until the shared provider exists, user data is keyed by issuer and subject so the
   account can be joined later without migration of preferences or history.
+- Linking policy (which editions may open 4b4buk) lives in the hub catalog
+  `tools/product/catalog.json`; this repository owns only the technical contract
+  `factory-module.json`, checked by `backend/tests/test_factory_module.py`. The family
+  identity provider is a separate tenant, never 4b4buk's own project.
 - iOS Home Screen web apps do not share Safari's storage, so users sign in once more
   after installing; onboarding must say so.
 
