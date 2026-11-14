@@ -5,7 +5,12 @@ import type { Reason, TeamRef } from "./types";
 type Teams = Record<string, TeamRef>;
 type Names = { team: (id: string) => string; competition: (id: string) => string };
 
-const p = (reason: Reason, key: string) => reason.params[key];
+const numberFormat = new Intl.NumberFormat("pl-PL", { maximumFractionDigits: 2 });
+// Numeric parameters use Polish formatting (decimal comma).
+const p = (reason: Reason, key: string) => {
+  const value = reason.params[key];
+  return typeof value === "number" ? numberFormat.format(value) : value;
+};
 
 const REASONS: Record<string, (r: Reason, n: Names) => string> = {
   FOLLOWED_TEAM: (r, n) => `Obserwujesz: ${n.team(String(p(r, "team")))}`,
