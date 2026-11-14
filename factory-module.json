@@ -1,6 +1,6 @@
 {
   "schema": "4b4apps.module/0.1",
-  "status": "proposed; no consumer exists yet; linking policy lives in the hub catalog (4b4studio/studio tools/product/catalog.json, edition 4b4buk); only the private 4b4 Hub may link to it (owner decision 2026-11-14)",
+  "status": "proposed; no consumer exists yet; linking policy lives in the hub catalog (4b4studio/studio tools/product/catalog.json, edition 4b4buk): private 4b4 ALLOWED, customer editions OPEN (owner decision pending)",
   "id": "4b4buk",
   "name": "4b4buk",
   "description": "Football match discovery and pre-match analysis.",
