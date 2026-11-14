@@ -22,13 +22,30 @@ on fictional demo data: statistics engine with sample transparency, rule-based w
 and analysis lists, match bundle API, controlled assistant tools without model calls,
 a Polish PWA and CI. It adds no paid service, credentials, hosting or publication.
 
-## 2026-11-14 — Separate deployable integrated by contract (PROPOSED)
+## 2026-11-14 — Separate and isolated product (APPROVED)
 
-4b4buk needs its own server and database, while the hub's office/Factory interface
-is planned as a static PWA without a server or accounts. Keep 4b4buk in its own
-repository and deployment, integrated through `factory-module.json` (top-level
-navigation, deep links) and a shared 4b4apps OpenID Connect identity once it exists.
-Revisit when the hub settles the product-family structure.
+Source: the owner's answer in the hub's product-structure session (2026-11-14,
+17:49 UTC). Asked whether 4b4buk should be a separate application with its own
+repository that is never attached to 4b4factory or 4b4studio packages, the owner
+chose "Osobno i izolowany" [English: "Separate and isolated"]. The option read: own
+repository and deployment, separate package and legal assessment, 4b4factory and
+4b4studio only without it, and the private 4b4 Hub may link to it. The question's
+description of 4b4buk (odds, 18+, own server and database) came from this
+repository's research, not from the owner's own words. The hub records the
+product line in `tools/product/catalog.json` (delivery: own repository; isolated;
+legal review required).
+
+OPEN: whether customer editions may open a separately purchased 4b4buk as a
+linked module, and how it is deployed and priced.
+
+## 2026-11-14 — Integration contract and shared identity (PROPOSED)
+
+Integrate through `factory-module.json` (top-level navigation, deep links, health
+URL) and a shared 4b4apps OpenID Connect identity once it exists, so the owner's
+requirement of one account, preferences and history across the Hub entry and the
+standalone app holds. Rationale for a separate deployable: licensed sports data
+with storage and display rights, user accounts and legal isolation of a
+betting-adjacent product.
 
 ## 2026-11-14 — Stack (PROPOSED, reversible)
 

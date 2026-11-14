@@ -2,8 +2,10 @@
 
 Applies to ChatGPT, Codex, Claude and other assistants working in `4b4studio/4b4buk`.
 4b4buk is a football-first match-discovery and pre-match analysis web app published
-under the 4b4apps brand and sold separately. It runs standalone (own address and icon)
-and opens as a module from the owner's private 4b4 Hub and, later, from 4b4factory.
+under the 4b4apps brand as a separate, isolated product (owner decision 2026-11-14:
+own repository, deployment, package and legal assessment; never bundled with
+4b4factory or 4b4studio). It runs standalone (own address and icon) and the owner's
+private 4b4 Hub may link to it.
 Shared studio rules, the AI team and the portfolio live in
 [`4b4studio/studio`](https://github.com/4b4studio/studio); this file adds what is
 specific to this repository and never overrides the hub's authority rules.

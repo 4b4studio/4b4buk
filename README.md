@@ -7,8 +7,9 @@ pre-match questions on one screen: form overall and home/away, averages of goals
 corners, cards and shots, head-to-head history, rest days, cup fixtures around the
 match, absences and lineups. Every average opens into the exact matches behind it.
 
-A 4b4apps product sold separately: it runs standalone at its own address with its own
-icon and opens as a module from the owner's private 4b4 Hub and, later, from 4b4factory.
+A separate, isolated 4b4apps product (own repository, deployment, package and legal
+assessment; never bundled with 4b4factory or 4b4studio). It runs standalone at its own
+address with its own icon, and the owner's private 4b4 Hub may link to it.
 NBA, NHL and MLB are planned extensions, not v1.
 
 > **Status: foundation.** The app runs on fictional demo data only. No real data
@@ -55,7 +56,7 @@ BUK_WEB_DIST=../web/dist uvicorn buk.main:app   # Windows: set BUK_WEB_DIST=..\w
 | `backend/buk/providers/` | Data-provider boundary and the demo provider |
 | `backend/scripts/make_demo_data.py` | Deterministic generator of the fictional demo dataset |
 | `web/` | React + Vite PWA (Polish UI) |
-| `factory-module.json` | Proposed contract for opening 4b4buk from the 4b4 Hub and 4b4factory |
+| `factory-module.json` | Proposed contract for opening 4b4buk from the private 4b4 Hub |
 | `docs/` | Product, architecture, data sources, responsible use, decisions, status, roadmap |
 
 ## Documents

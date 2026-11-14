@@ -57,8 +57,9 @@ PWA (React, Vite)  --HTTPS-->  API (FastAPI)  -->  PostgreSQL
   Keycloak; Supabase Auth if Supabase also hosts the database). 4b4buk is a client using
   Authorization Code with PKCE through a backend-for-frontend; the browser holds only a
   host-only, HttpOnly, Secure, SameSite=Lax session cookie.
-- The 4b4 Hub (and later 4b4factory) opens 4b4buk by top-level navigation
-  (`factory-module.json`), never in a cross-site iframe. Single sign-on comes from the
+- The private 4b4 Hub opens 4b4buk by top-level navigation (`factory-module.json`),
+  never in a cross-site iframe. Whether customer editions may link a separately
+  purchased 4b4buk is an open owner question. Single sign-on comes from the
   provider session.
 - Until the shared provider exists, user data is keyed by issuer and subject so the
   account can be joined later without migration of preferences or history.

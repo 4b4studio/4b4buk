@@ -1,6 +1,6 @@
 {
   "schema": "4b4apps.module/0.1",
-  "status": "proposed; no 4b4 Hub or 4b4factory consumer exists yet",
+  "status": "proposed; no consumer exists yet; only the private 4b4 Hub may link to 4b4buk (owner decision 2026-11-14)",
   "id": "4b4buk",
   "name": "4b4buk",
   "description": "Football match discovery and pre-match analysis.",
