@@ -1,3 +1,15 @@
+# Python and web toolchain
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+node_modules/
+web/dist/
+.env
+.env.*
+
+# Kept from the repository's initial commit (Godot template)
 # Godot 4.2+ specific ignores
 ~*.dll
 

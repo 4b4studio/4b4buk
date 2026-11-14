@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="4b4buk">
+  <rect width="512" height="512" rx="112" fill="#0f3d2e"/>
+  <circle cx="256" cy="256" r="176" fill="none" stroke="#5fd38d" stroke-width="18"/>
+  <text x="256" y="226" text-anchor="middle" font-family="DejaVu Sans, Verdana, sans-serif" font-weight="700" font-size="92" fill="#ecf4ef">4b4</text>
+  <text x="256" y="336" text-anchor="middle" font-family="DejaVu Sans, Verdana, sans-serif" font-weight="700" font-size="104" fill="#5fd38d">buk</text>
+</svg>

@@ -1,0 +1,6968 @@
+{
+ "meta": {
+  "label": "DEMO — fictional teams, players, coaches and results",
+  "demo": true,
+  "as_of": "2026-11-14T08:00:00Z",
+  "generator": "backend/scripts/make_demo_data.py",
+  "seed": 4,
+  "default_profile": {
+   "followed_teams": [
+    "npt"
+   ],
+   "followed_competitions": [
+    "liga-demo"
+   ]
+  },
+  "absence_coverage": [
+   "npt",
+   "riv",
+   "kes",
+   "ash",
+   "mar",
+   "oak",
+   "wes",
+   "hol",
+   "lin"
+  ]
+ },
+ "competitions": [
+  {
+   "id": "liga-demo",
+   "name": "Liga Demo",
+   "kind": "league",
+   "country": "Demolandia"
+  },
+  {
+   "id": "liga-polnocna-demo",
+   "name": "Liga Północna Demo",
+   "kind": "league",
+   "country": "Nordfikcja"
+  },
+  {
+   "id": "puchar-demo",
+   "name": "Puchar Demolandii",
+   "kind": "domestic_cup",
+   "country": "Demolandia"
+  },
+  {
+   "id": "euro-demo",
+   "name": "Euro Demo Cup",
+   "kind": "continental",
+   "country": null
+  }
+ ],
+ "teams": [
+  {
+   "id": "npt",
+   "name": "Northport FC",
+   "short_name": "NPT",
+   "country": "Demolandia"
+  },
+  {
+   "id": "riv",
+   "name": "Riverton United",
+   "short_name": "RIV",
+   "country": "Demolandia"
+  },
+  {
+   "id": "kes",
+   "name": "Kestrel Athletic",
+   "short_name": "KES",
+   "country": "Demolandia"
+  },
+  {
+   "id": "ash",
+   "name": "Ashford Town",
+   "short_name": "ASH",
+   "country": "Demolandia"
+  },
+  {
+   "id": "mar",
+   "name": "Marlow City",
+   "short_name": "MAR",
+   "country": "Demolandia"
+  },
+  {
+   "id": "gra",
+   "name": "Granite Rovers",
+   "short_name": "GRA",
+   "country": "Demolandia"
+  },
+  {
+   "id": "bay",
+   "name": "Bayside Wanderers",
+   "short_name": "BAY",
+   "country": "Demolandia"
+  },
+  {
+   "id": "hol",
+   "name": "Holloway Albion",
+   "short_name": "HOL",
+   "country": "Demolandia"
+  },
+  {
+   "id": "elm",
+   "name": "Elmstead Rangers",
+   "short_name": "ELM",
+   "country": "Demolandia"
+  },
+  {
+   "id": "cop",
+   "name": "Copperfield SC",
+   "short_name": "COP",
+   "country": "Demolandia"
+  },
+  {
+   "id": "wes",
+   "name": "Westbrook Forest",
+   "short_name": "WES",
+   "country": "Demolandia"
+  },
+  {
+   "id": "lin",
+   "name": "Lindale Harriers",
+   "short_name": "LIN",
+   "country": "Demolandia"
+  },
+  {
+   "id": "sto",
+   "name": "Stonebridge Athletic",
+   "short_name": "STO",
+   "country": "Demolandia"
+  },
+  {
+   "id": "fai",
+   "name": "Fairhaven Town",
+   "short_name": "FAI",
+   "country": "Demolandia"
+  },
+  {
+   "id": "oak",
+   "name": "Oakmere United",
+   "short_name": "OAK",
+   "country": "Demolandia"
+  },
+  {
+   "id": "tho",
+   "name": "Thornbury Rovers",
+   "short_name": "THO",
+   "country": "Demolandia"
+  },
+  {
+   "id": "fjo",
+   "name": "Fjordby IF",
+   "short_name": "FJO",
+   "country": "Nordfikcja"
+  },
+  {
+   "id": "ska",
+   "name": "Skarvik BK",
+   "short_name": "SKA",
+   "country": "Nordfikcja"
+  },
+  {
+   "id": "nor",
+   "name": "Nordvik FK",
+   "short_name": "NOR",
+   "country": "Nordfikcja"
+  },
+  {
+   "id": "ish",
+   "name": "Isholm SK",
+   "short_name": "ISH",
+   "country": "Nordfikcja"
+  },
+  {
+   "id": "ber",
+   "name": "Bergstad IL",
+   "short_name": "BER",
+   "country": "Nordfikcja"
+  },
+  {
+   "id": "lun",
+   "name": "Lunde FK",
+   "short_name": "LUN",
+   "country": "Nordfikcja"
+  },
+  {
+   "id": "spa",
+   "name": "Sporting Aurel",
+   "short_name": "SPA",
+   "country": "Aurelia"
+  },
+  {
+   "id": "dyv",
+   "name": "Dynamo Velik",
+   "short_name": "DYV",
+   "country": "Velikia"
+  },
+  {
+   "id": "kol",
+   "name": "Rapid Kolsk",
+   "short_name": "KOL",
+   "country": "Velikia"
+  },
+  {
+   "id": "mon",
+   "name": "Real Montaro",
+   "short_name": "MON",
+   "country": "Aurelia"
+  },
+  {
+   "id": "hel",
+   "name": "Helvar 1904",
+   "short_name": "HEL",
+   "country": "Helvaria"
+  },
+  {
+   "id": "bra",
+   "name": "Bravia Union",
+   "short_name": "BRA",
+   "country": "Bravia"
+  },
+  {
+   "id": "sok",
+   "name": "Sokół Demo",
+   "short_name": "SOK",
+   "country": "Demolandia"
+  },
+  {
+   "id": "orl",
+   "name": "Orlik Demo",
+   "short_name": "ORL",
+   "country": "Demolandia"
+  },
+  {
+   "id": "jas",
+   "name": "Jastrząb Demo",
+   "short_name": "JAS",
+   "country": "Demolandia"
+  },
+  {
+   "id": "zur",
+   "name": "Żuraw Demo",
+   "short_name": "ZUR",
+   "country": "Demolandia"
+  }
+ ],
+ "matches": [
+  {
+   "id": "ld-2223-20220903-ash-kes",
+   "competition_id": "liga-demo",
+   "season": "2022/23",
+   "round": "liga",
+   "kickoff": "2022-09-03T15:00:00Z",
+   "home_id": "ash",
+   "away_id": "kes",
+   "venue": "Mill Road",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 3,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 2,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 18,
+    "shots_on_target": 9,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2223-20230211-kes-ash",
+   "competition_id": "liga-demo",
+   "season": "2022/23",
+   "round": "liga",
+   "kickoff": "2023-02-11T15:00:00Z",
+   "home_id": "kes",
+   "away_id": "ash",
+   "venue": "Kestrel Lane",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 4,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 11,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 8,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2324-20231125-npt-riv",
+   "competition_id": "liga-demo",
+   "season": "2023/24",
+   "round": "liga",
+   "kickoff": "2023-11-25T15:00:00Z",
+   "home_id": "npt",
+   "away_id": "riv",
+   "venue": "Harbour Park",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 3,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 8,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2324-20231213-tho-bay",
+   "competition_id": "liga-demo",
+   "season": "2023/24",
+   "round": "liga",
+   "kickoff": "2023-12-13T15:00:00Z",
+   "home_id": "tho",
+   "away_id": "bay",
+   "venue": "Thornbury Rovers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 7,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 7,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2324-20231214-sto-cop",
+   "competition_id": "liga-demo",
+   "season": "2023/24",
+   "round": "liga",
+   "kickoff": "2023-12-14T15:00:00Z",
+   "home_id": "sto",
+   "away_id": "cop",
+   "venue": "Stonebridge Athletic Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 2,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 7,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2324-20231220-lin-hol",
+   "competition_id": "liga-demo",
+   "season": "2023/24",
+   "round": "liga",
+   "kickoff": "2023-12-20T15:00:00Z",
+   "home_id": "lin",
+   "away_id": "hol",
+   "venue": "Lindale Harriers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 2,
+    "yellow_cards": 1,
+    "red_cards": 1,
+    "shots": 10,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 6,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 17,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2324-20240413-riv-npt",
+   "competition_id": "liga-demo",
+   "season": "2023/24",
+   "round": "liga",
+   "kickoff": "2024-04-13T15:00:00Z",
+   "home_id": "riv",
+   "away_id": "npt",
+   "venue": "Riverside Arena",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 3,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 18,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 5,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2425-20240921-gra-mar",
+   "competition_id": "liga-demo",
+   "season": "2024/25",
+   "round": "liga",
+   "kickoff": "2024-09-21T15:00:00Z",
+   "home_id": "gra",
+   "away_id": "mar",
+   "venue": "Quarry Field",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 1,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 11,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 12,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2425-20241005-riv-npt",
+   "competition_id": "liga-demo",
+   "season": "2024/25",
+   "round": "liga",
+   "kickoff": "2024-10-05T15:00:00Z",
+   "home_id": "riv",
+   "away_id": "npt",
+   "venue": "Riverside Arena",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 3,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 8,
+    "yellow_cards": 4,
+    "red_cards": 1,
+    "shots": 13,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2425-20250222-mar-gra",
+   "competition_id": "liga-demo",
+   "season": "2024/25",
+   "round": "liga",
+   "kickoff": "2025-02-22T15:00:00Z",
+   "home_id": "mar",
+   "away_id": "gra",
+   "venue": "Marlow Bowl",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 2,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 4,
+    "red_cards": 1,
+    "shots": 11,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2425-20250308-npt-riv",
+   "competition_id": "liga-demo",
+   "season": "2024/25",
+   "round": "liga",
+   "kickoff": "2025-03-08T15:00:00Z",
+   "home_id": "npt",
+   "away_id": "riv",
+   "venue": "Harbour Park",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 3,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 4,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 16,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 7,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2425-20250413-elm-fai",
+   "competition_id": "liga-demo",
+   "season": "2024/25",
+   "round": "liga",
+   "kickoff": "2025-04-13T15:00:00Z",
+   "home_id": "elm",
+   "away_id": "fai",
+   "venue": "Elmstead Rangers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 4,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 7,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 17,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2425-20250418-hol-lin",
+   "competition_id": "liga-demo",
+   "season": "2024/25",
+   "round": "liga",
+   "kickoff": "2025-04-18T15:00:00Z",
+   "home_id": "hol",
+   "away_id": "lin",
+   "venue": "Holloway Albion Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 4,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 6,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 5,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2425-20250419-cop-sto",
+   "competition_id": "liga-demo",
+   "season": "2024/25",
+   "round": "liga",
+   "kickoff": "2025-04-19T15:00:00Z",
+   "home_id": "cop",
+   "away_id": "sto",
+   "venue": "Copperfield SC Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 3,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 2,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 7,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2425-20250420-bay-tho",
+   "competition_id": "liga-demo",
+   "season": "2024/25",
+   "round": "liga",
+   "kickoff": "2025-04-20T15:00:00Z",
+   "home_id": "bay",
+   "away_id": "tho",
+   "venue": "Bayside Wanderers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 3
+   },
+   "home_stats": {
+    "corners": 7,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 9,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 7,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "pd-2425-20250524-npt-riv",
+   "competition_id": "puchar-demo",
+   "season": "2024/25",
+   "round": "finał",
+   "kickoff": "2025-05-24T15:00:00Z",
+   "home_id": "npt",
+   "away_id": "riv",
+   "venue": "Stadion Narodowy Demo",
+   "neutral_venue": true,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 1,
+    "home_aet": 1,
+    "away_aet": 1,
+    "home_pens": 3,
+    "away_pens": 4
+   },
+   "home_stats": {
+    "corners": 4,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 7,
+    "shots_on_target": 0,
+    "includes_extra_time": true
+   },
+   "away_stats": {
+    "corners": 7,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 22,
+    "shots_on_target": 8,
+    "includes_extra_time": true
+   }
+  },
+  {
+   "id": "ld-2526-20250911-lin-hol",
+   "competition_id": "liga-demo",
+   "season": "2025/26",
+   "round": "liga",
+   "kickoff": "2025-09-11T15:00:00Z",
+   "home_id": "lin",
+   "away_id": "hol",
+   "venue": "Lindale Harriers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 3,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2526-20250913-fai-elm",
+   "competition_id": "liga-demo",
+   "season": "2025/26",
+   "round": "liga",
+   "kickoff": "2025-09-13T15:00:00Z",
+   "home_id": "fai",
+   "away_id": "elm",
+   "venue": "Fairhaven Town Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2526-20250914-sto-cop",
+   "competition_id": "liga-demo",
+   "season": "2025/26",
+   "round": "liga",
+   "kickoff": "2025-09-14T15:00:00Z",
+   "home_id": "sto",
+   "away_id": "cop",
+   "venue": "Stonebridge Athletic Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 8,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 7,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2526-20250916-tho-bay",
+   "competition_id": "liga-demo",
+   "season": "2025/26",
+   "round": "liga",
+   "kickoff": "2025-09-16T15:00:00Z",
+   "home_id": "tho",
+   "away_id": "bay",
+   "venue": "Thornbury Rovers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 10,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 7,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 6,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 9,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2526-20250922-wes-oak",
+   "competition_id": "liga-demo",
+   "season": "2025/26",
+   "round": "liga",
+   "kickoff": "2025-09-22T15:00:00Z",
+   "home_id": "wes",
+   "away_id": "oak",
+   "venue": "Westbrook Forest Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2526-20251004-mar-gra",
+   "competition_id": "liga-demo",
+   "season": "2025/26",
+   "round": "liga",
+   "kickoff": "2025-10-04T15:00:00Z",
+   "home_id": "mar",
+   "away_id": "gra",
+   "venue": "Marlow Bowl",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 3,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 8,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 11,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2526-20251129-riv-npt",
+   "competition_id": "liga-demo",
+   "season": "2025/26",
+   "round": "liga",
+   "kickoff": "2025-11-29T15:00:00Z",
+   "home_id": "riv",
+   "away_id": "npt",
+   "venue": "Riverside Arena",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 9,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 7,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 20,
+    "shots_on_target": 10,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2526-20260212-bay-tho",
+   "competition_id": "liga-demo",
+   "season": "2025/26",
+   "round": "liga",
+   "kickoff": "2026-02-12T15:00:00Z",
+   "home_id": "bay",
+   "away_id": "tho",
+   "venue": "Bayside Wanderers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 4,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 7,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2526-20260212-hol-lin",
+   "competition_id": "liga-demo",
+   "season": "2025/26",
+   "round": "liga",
+   "kickoff": "2026-02-12T15:00:00Z",
+   "home_id": "hol",
+   "away_id": "lin",
+   "venue": "Holloway Albion Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 11,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2526-20260213-oak-wes",
+   "competition_id": "liga-demo",
+   "season": "2025/26",
+   "round": "liga",
+   "kickoff": "2026-02-13T15:00:00Z",
+   "home_id": "oak",
+   "away_id": "wes",
+   "venue": "Oakmere Stadium",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 8,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 1,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2526-20260217-elm-fai",
+   "competition_id": "liga-demo",
+   "season": "2025/26",
+   "round": "liga",
+   "kickoff": "2026-02-17T15:00:00Z",
+   "home_id": "elm",
+   "away_id": "fai",
+   "venue": "Elmstead Rangers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 3,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 8,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2526-20260221-cop-sto",
+   "competition_id": "liga-demo",
+   "season": "2025/26",
+   "round": "liga",
+   "kickoff": "2026-02-21T15:00:00Z",
+   "home_id": "cop",
+   "away_id": "sto",
+   "venue": "Copperfield SC Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 7,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2526-20260314-gra-mar",
+   "competition_id": "liga-demo",
+   "season": "2025/26",
+   "round": "liga",
+   "kickoff": "2026-03-14T15:00:00Z",
+   "home_id": "gra",
+   "away_id": "mar",
+   "venue": "Quarry Field",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 2,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 7,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 21,
+    "shots_on_target": 10,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2526-20260418-npt-riv",
+   "competition_id": "liga-demo",
+   "season": "2025/26",
+   "round": "liga",
+   "kickoff": "2026-04-18T15:00:00Z",
+   "home_id": "npt",
+   "away_id": "riv",
+   "venue": "Harbour Park",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 7,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 1,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 5,
+    "shots_on_target": 0,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r1-npt-oak",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "1. kolejka",
+   "kickoff": "2026-08-08T11:30:00Z",
+   "home_id": "npt",
+   "away_id": "oak",
+   "venue": "Harbour Park",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 2,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r1-wes-elm",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "1. kolejka",
+   "kickoff": "2026-08-08T13:00:00Z",
+   "home_id": "wes",
+   "away_id": "elm",
+   "venue": "Westbrook Forest Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 4,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 1,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 7,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r1-kes-hol",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "1. kolejka",
+   "kickoff": "2026-08-08T14:00:00Z",
+   "home_id": "kes",
+   "away_id": "hol",
+   "venue": "Kestrel Lane",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 4,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 18,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 1,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 8,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r1-tho-gra",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "1. kolejka",
+   "kickoff": "2026-08-08T14:00:00Z",
+   "home_id": "tho",
+   "away_id": "gra",
+   "venue": "Thornbury Rovers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 4,
+    "away_90": 3
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 5,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r1-lin-bay",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "1. kolejka",
+   "kickoff": "2026-08-08T15:00:00Z",
+   "home_id": "lin",
+   "away_id": "bay",
+   "venue": "Lindale Harriers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 3
+   },
+   "home_stats": {
+    "corners": 3,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 7,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r1-ash-cop",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "1. kolejka",
+   "kickoff": "2026-08-08T16:30:00Z",
+   "home_id": "ash",
+   "away_id": "cop",
+   "venue": "Mill Road",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 4,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 9,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 6,
+    "yellow_cards": 6,
+    "red_cards": 0,
+    "shots": 5,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r1-fai-riv",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "1. kolejka",
+   "kickoff": "2026-08-08T16:30:00Z",
+   "home_id": "fai",
+   "away_id": "riv",
+   "venue": "Fairhaven Town Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 3
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 8,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 9,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r1-sto-mar",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "1. kolejka",
+   "kickoff": "2026-08-08T19:00:00Z",
+   "home_id": "sto",
+   "away_id": "mar",
+   "venue": "Stonebridge Athletic Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 3,
+    "yellow_cards": 7,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 7,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 23,
+    "shots_on_target": 8,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r2-tho-npt",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "2. kolejka",
+   "kickoff": "2026-08-15T11:30:00Z",
+   "home_id": "tho",
+   "away_id": "npt",
+   "venue": "Thornbury Rovers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 1,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 8,
+    "yellow_cards": 4,
+    "red_cards": 1,
+    "shots": 12,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r2-lin-mar",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "2. kolejka",
+   "kickoff": "2026-08-15T13:00:00Z",
+   "home_id": "lin",
+   "away_id": "mar",
+   "venue": "Lindale Harriers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 3,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 10,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 6,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 8,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 19,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r2-fai-gra",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "2. kolejka",
+   "kickoff": "2026-08-15T14:00:00Z",
+   "home_id": "fai",
+   "away_id": "gra",
+   "venue": "Fairhaven Town Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 7,
+    "shots_on_target": 1,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 1,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r2-oak-hol",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "2. kolejka",
+   "kickoff": "2026-08-15T14:00:00Z",
+   "home_id": "oak",
+   "away_id": "hol",
+   "venue": "Oakmere Stadium",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 7,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 11,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 6,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r2-wes-bay",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "2. kolejka",
+   "kickoff": "2026-08-15T15:00:00Z",
+   "home_id": "wes",
+   "away_id": "bay",
+   "venue": "Westbrook Forest Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 5,
+    "red_cards": 0,
+    "shots": 16,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 6,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r2-kes-cop",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "2. kolejka",
+   "kickoff": "2026-08-15T16:30:00Z",
+   "home_id": "kes",
+   "away_id": "cop",
+   "venue": "Kestrel Lane",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 3,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 26,
+    "shots_on_target": 13,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 6,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 8,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r2-sto-riv",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "2. kolejka",
+   "kickoff": "2026-08-15T16:30:00Z",
+   "home_id": "sto",
+   "away_id": "riv",
+   "venue": "Stonebridge Athletic Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 6,
+    "shots_on_target": 1,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r2-ash-elm",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "2. kolejka",
+   "kickoff": "2026-08-15T19:00:00Z",
+   "home_id": "ash",
+   "away_id": "elm",
+   "venue": "Mill Road",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 19,
+    "shots_on_target": 9,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r3-npt-hol",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "3. kolejka",
+   "kickoff": "2026-08-22T11:30:00Z",
+   "home_id": "npt",
+   "away_id": "hol",
+   "venue": "Harbour Park",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 5,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 10,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 19,
+    "shots_on_target": 8,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r3-ash-bay",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "3. kolejka",
+   "kickoff": "2026-08-22T13:00:00Z",
+   "home_id": "ash",
+   "away_id": "bay",
+   "venue": "Mill Road",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 4,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 9,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 11,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r3-fai-tho",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "3. kolejka",
+   "kickoff": "2026-08-22T14:00:00Z",
+   "home_id": "fai",
+   "away_id": "tho",
+   "venue": "Fairhaven Town Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 9,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 17,
+    "shots_on_target": 9,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 2,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 17,
+    "shots_on_target": 9,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r3-oak-cop",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "3. kolejka",
+   "kickoff": "2026-08-22T14:00:00Z",
+   "home_id": "oak",
+   "away_id": "cop",
+   "venue": "Oakmere Stadium",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 4,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 17,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 6,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 1,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r3-wes-mar",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "3. kolejka",
+   "kickoff": "2026-08-22T15:00:00Z",
+   "home_id": "wes",
+   "away_id": "mar",
+   "venue": "Westbrook Forest Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 9,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 16,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r3-kes-elm",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "3. kolejka",
+   "kickoff": "2026-08-22T16:30:00Z",
+   "home_id": "kes",
+   "away_id": "elm",
+   "venue": "Kestrel Lane",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 5,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 6,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r3-sto-gra",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "3. kolejka",
+   "kickoff": "2026-08-22T16:30:00Z",
+   "home_id": "sto",
+   "away_id": "gra",
+   "venue": "Stonebridge Athletic Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 3
+   },
+   "home_stats": {
+    "corners": 7,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 18,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 7,
+    "red_cards": 0,
+    "shots": 18,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r3-lin-riv",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "3. kolejka",
+   "kickoff": "2026-08-22T19:00:00Z",
+   "home_id": "lin",
+   "away_id": "riv",
+   "venue": "Lindale Harriers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 4
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 6,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r4-fai-npt",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "4. kolejka",
+   "kickoff": "2026-08-29T11:30:00Z",
+   "home_id": "fai",
+   "away_id": "npt",
+   "venue": "Fairhaven Town Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 2,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 7,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r1-fjo-ska",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "1. kolejka",
+   "kickoff": "2026-08-29T11:30:00Z",
+   "home_id": "fjo",
+   "away_id": "ska",
+   "venue": "Fjordby IF Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 4,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 9,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 9,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 17,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r4-wes-riv",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "4. kolejka",
+   "kickoff": "2026-08-29T13:00:00Z",
+   "home_id": "wes",
+   "away_id": "riv",
+   "venue": "Westbrook Forest Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 7,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 11,
+    "shots_on_target": 1,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 18,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r4-hol-cop",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "4. kolejka",
+   "kickoff": "2026-08-29T14:00:00Z",
+   "home_id": "hol",
+   "away_id": "cop",
+   "venue": "Holloway Albion Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 7,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 8,
+    "shots_on_target": 1,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r4-sto-tho",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "4. kolejka",
+   "kickoff": "2026-08-29T14:00:00Z",
+   "home_id": "sto",
+   "away_id": "tho",
+   "venue": "Stonebridge Athletic Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 9,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 6,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r1-lun-ish",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "1. kolejka",
+   "kickoff": "2026-08-29T14:00:00Z",
+   "home_id": "lun",
+   "away_id": "ish",
+   "venue": "Lunde FK Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 4,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 11,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 8,
+    "shots_on_target": 0,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r1-nor-ber",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "1. kolejka",
+   "kickoff": "2026-08-29T14:00:00Z",
+   "home_id": "nor",
+   "away_id": "ber",
+   "venue": "Nordvik FK Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 3,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 1,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 7,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r4-ash-mar",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "4. kolejka",
+   "kickoff": "2026-08-29T15:00:00Z",
+   "home_id": "ash",
+   "away_id": "mar",
+   "venue": "Mill Road",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 3,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 8,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 10,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r4-lin-gra",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "4. kolejka",
+   "kickoff": "2026-08-29T16:30:00Z",
+   "home_id": "lin",
+   "away_id": "gra",
+   "venue": "Lindale Harriers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 8,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 11,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r4-oak-elm",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "4. kolejka",
+   "kickoff": "2026-08-29T16:30:00Z",
+   "home_id": "oak",
+   "away_id": "elm",
+   "venue": "Oakmere Stadium",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 2,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 0,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 6,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r4-kes-bay",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "4. kolejka",
+   "kickoff": "2026-08-29T19:00:00Z",
+   "home_id": "kes",
+   "away_id": "bay",
+   "venue": "Kestrel Lane",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 4,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 8,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 18,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 7,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r2-nor-fjo",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "2. kolejka",
+   "kickoff": "2026-09-05T11:30:00Z",
+   "home_id": "nor",
+   "away_id": "fjo",
+   "venue": "Nordvik FK Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 5,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r2-lun-ber",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "2. kolejka",
+   "kickoff": "2026-09-05T14:00:00Z",
+   "home_id": "lun",
+   "away_id": "ber",
+   "venue": "Lunde FK Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 27,
+    "shots_on_target": 15,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 1,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r2-ska-ish",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "2. kolejka",
+   "kickoff": "2026-09-05T14:00:00Z",
+   "home_id": "ska",
+   "away_id": "ish",
+   "venue": "Skarvik BK Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 7,
+    "yellow_cards": 8,
+    "red_cards": 0,
+    "shots": 17,
+    "shots_on_target": 10,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r5-npt-cop",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "5. kolejka",
+   "kickoff": "2026-09-12T11:30:00Z",
+   "home_id": "npt",
+   "away_id": "cop",
+   "venue": "Harbour Park",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 3,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 8,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 2,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 3,
+    "shots_on_target": 0,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r3-fjo-ish",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "3. kolejka",
+   "kickoff": "2026-09-12T11:30:00Z",
+   "home_id": "fjo",
+   "away_id": "ish",
+   "venue": "Fjordby IF Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 7,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 22,
+    "shots_on_target": 9,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r5-kes-mar",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "5. kolejka",
+   "kickoff": "2026-09-12T13:00:00Z",
+   "home_id": "kes",
+   "away_id": "mar",
+   "venue": "Kestrel Lane",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 8,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 8,
+    "shots_on_target": 1,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 10,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 6,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r5-hol-elm",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "5. kolejka",
+   "kickoff": "2026-09-12T14:00:00Z",
+   "home_id": "hol",
+   "away_id": "elm",
+   "venue": "Holloway Albion Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r5-sto-fai",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "5. kolejka",
+   "kickoff": "2026-09-12T14:00:00Z",
+   "home_id": "sto",
+   "away_id": "fai",
+   "venue": "Stonebridge Athletic Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 4,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 11,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 10,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 11,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r3-lun-nor",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "3. kolejka",
+   "kickoff": "2026-09-12T14:00:00Z",
+   "home_id": "lun",
+   "away_id": "nor",
+   "venue": "Lunde FK Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 7,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r3-ska-ber",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "3. kolejka",
+   "kickoff": "2026-09-12T14:00:00Z",
+   "home_id": "ska",
+   "away_id": "ber",
+   "venue": "Skarvik BK Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 5,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 0,
+    "red_cards": 1,
+    "shots": 12,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 7,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 16,
+    "shots_on_target": 8,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r5-ash-riv",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "5. kolejka",
+   "kickoff": "2026-09-12T15:00:00Z",
+   "home_id": "ash",
+   "away_id": "riv",
+   "venue": "Mill Road",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 3
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r5-lin-tho",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "5. kolejka",
+   "kickoff": "2026-09-12T16:30:00Z",
+   "home_id": "lin",
+   "away_id": "tho",
+   "venue": "Lindale Harriers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 4
+   },
+   "home_stats": {
+    "corners": 7,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 11,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 5,
+    "red_cards": 0,
+    "shots": 7,
+    "shots_on_target": 1,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r5-oak-bay",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "5. kolejka",
+   "kickoff": "2026-09-12T16:30:00Z",
+   "home_id": "oak",
+   "away_id": "bay",
+   "venue": "Oakmere Stadium",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 3,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 11,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 6,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r5-wes-gra",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "5. kolejka",
+   "kickoff": "2026-09-12T19:00:00Z",
+   "home_id": "wes",
+   "away_id": "gra",
+   "venue": "Westbrook Forest Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 3
+   },
+   "home_stats": {
+    "corners": 2,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 4,
+    "shots_on_target": 0,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 5,
+    "red_cards": 0,
+    "shots": 16,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ed-2627-md1-dyv-kol",
+   "competition_id": "euro-demo",
+   "season": "2026/27",
+   "round": "1. kolejka grupy",
+   "kickoff": "2026-09-17T18:45:00Z",
+   "home_id": "dyv",
+   "away_id": "kol",
+   "venue": "Dynamo Velik Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 3
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ed-2627-md1-npt-spa",
+   "competition_id": "euro-demo",
+   "season": "2026/27",
+   "round": "1. kolejka grupy",
+   "kickoff": "2026-09-17T18:45:00Z",
+   "home_id": "npt",
+   "away_id": "spa",
+   "venue": "Harbour Park",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 3,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 4,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 8,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 2,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ed-2627-md1-hel-bra",
+   "competition_id": "euro-demo",
+   "season": "2026/27",
+   "round": "1. kolejka grupy",
+   "kickoff": "2026-09-17T20:00:00Z",
+   "home_id": "hel",
+   "away_id": "bra",
+   "venue": "Helvar 1904 Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 3,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 6,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ed-2627-md1-mar-mon",
+   "competition_id": "euro-demo",
+   "season": "2026/27",
+   "round": "1. kolejka grupy",
+   "kickoff": "2026-09-17T20:00:00Z",
+   "home_id": "mar",
+   "away_id": "mon",
+   "venue": "Marlow Bowl",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 4,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 7,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 20,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r6-sto-npt",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "6. kolejka",
+   "kickoff": "2026-09-19T11:30:00Z",
+   "home_id": "sto",
+   "away_id": "npt",
+   "venue": "Stonebridge Athletic Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 2,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 5,
+    "shots_on_target": 1,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 7,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r4-lun-fjo",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "4. kolejka",
+   "kickoff": "2026-09-19T11:30:00Z",
+   "home_id": "lun",
+   "away_id": "fjo",
+   "venue": "Lunde FK Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 3,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 18,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 8,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r6-ash-gra",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "6. kolejka",
+   "kickoff": "2026-09-19T13:00:00Z",
+   "home_id": "ash",
+   "away_id": "gra",
+   "venue": "Mill Road",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 3,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 7,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 8,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 1,
+    "yellow_cards": 5,
+    "red_cards": 0,
+    "shots": 16,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r6-cop-elm",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "6. kolejka",
+   "kickoff": "2026-09-19T14:00:00Z",
+   "home_id": "cop",
+   "away_id": "elm",
+   "venue": "Copperfield SC Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 4,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 6,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r6-lin-fai",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "6. kolejka",
+   "kickoff": "2026-09-19T14:00:00Z",
+   "home_id": "lin",
+   "away_id": "fai",
+   "venue": "Lindale Harriers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 4,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 4,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 16,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 8,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r4-ish-ber",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "4. kolejka",
+   "kickoff": "2026-09-19T14:00:00Z",
+   "home_id": "ish",
+   "away_id": "ber",
+   "venue": "Isholm SK Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 8,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r4-ska-nor",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "4. kolejka",
+   "kickoff": "2026-09-19T14:00:00Z",
+   "home_id": "ska",
+   "away_id": "nor",
+   "venue": "Skarvik BK Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 3,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 8,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r6-kes-riv",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "6. kolejka",
+   "kickoff": "2026-09-19T15:00:00Z",
+   "home_id": "kes",
+   "away_id": "riv",
+   "venue": "Kestrel Lane",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 4
+   },
+   "home_stats": {
+    "corners": 4,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 17,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 9,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 8,
+    "shots_on_target": 1,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r6-hol-bay",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "6. kolejka",
+   "kickoff": "2026-09-19T16:30:00Z",
+   "home_id": "hol",
+   "away_id": "bay",
+   "venue": "Holloway Albion Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 2,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r6-wes-tho",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "6. kolejka",
+   "kickoff": "2026-09-19T16:30:00Z",
+   "home_id": "wes",
+   "away_id": "tho",
+   "venue": "Westbrook Forest Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 9,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 8,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r6-oak-mar",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "6. kolejka",
+   "kickoff": "2026-09-19T19:00:00Z",
+   "home_id": "oak",
+   "away_id": "mar",
+   "venue": "Oakmere Stadium",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 18,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 7,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 16,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "pd-2627-r1-ash-riv",
+   "competition_id": "puchar-demo",
+   "season": "2026/27",
+   "round": "1/16 finału",
+   "kickoff": "2026-09-23T18:00:00Z",
+   "home_id": "ash",
+   "away_id": "riv",
+   "venue": "Mill Road",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 4,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 6,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 8,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "pd-2627-r1-cop-npt",
+   "competition_id": "puchar-demo",
+   "season": "2026/27",
+   "round": "1/16 finału",
+   "kickoff": "2026-09-23T18:00:00Z",
+   "home_id": "cop",
+   "away_id": "npt",
+   "venue": "Copperfield SC Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 2,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 9,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "pd-2627-r1-elm-mar",
+   "competition_id": "puchar-demo",
+   "season": "2026/27",
+   "round": "1/16 finału",
+   "kickoff": "2026-09-23T18:00:00Z",
+   "home_id": "elm",
+   "away_id": "mar",
+   "venue": "Elmstead Rangers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 1,
+    "home_aet": 1,
+    "away_aet": 2
+   },
+   "home_stats": {
+    "corners": 11,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 4,
+    "includes_extra_time": true
+   },
+   "away_stats": {
+    "corners": 7,
+    "yellow_cards": 5,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 9,
+    "includes_extra_time": true
+   }
+  },
+  {
+   "id": "pd-2627-r1-hol-gra",
+   "competition_id": "puchar-demo",
+   "season": "2026/27",
+   "round": "1/16 finału",
+   "kickoff": "2026-09-23T18:00:00Z",
+   "home_id": "hol",
+   "away_id": "gra",
+   "venue": "Holloway Albion Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 2,
+    "home_aet": 2,
+    "away_aet": 2,
+    "home_pens": 4,
+    "away_pens": 5
+   },
+   "home_stats": {
+    "corners": 9,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 19,
+    "shots_on_target": 4,
+    "includes_extra_time": true
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 5,
+    "red_cards": 0,
+    "shots": 17,
+    "shots_on_target": 6,
+    "includes_extra_time": true
+   }
+  },
+  {
+   "id": "pd-2627-r1-kes-bay",
+   "competition_id": "puchar-demo",
+   "season": "2026/27",
+   "round": "1/16 finału",
+   "kickoff": "2026-09-23T18:00:00Z",
+   "home_id": "kes",
+   "away_id": "bay",
+   "venue": "Kestrel Lane",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 3,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 8,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 18,
+    "shots_on_target": 9,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 11,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "pd-2627-r1-lin-wes",
+   "competition_id": "puchar-demo",
+   "season": "2026/27",
+   "round": "1/16 finału",
+   "kickoff": "2026-09-23T18:00:00Z",
+   "home_id": "lin",
+   "away_id": "wes",
+   "venue": "Lindale Harriers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 1,
+    "home_aet": 1,
+    "away_aet": 1,
+    "home_pens": 3,
+    "away_pens": 4
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 3,
+    "includes_extra_time": true
+   },
+   "away_stats": {
+    "corners": 10,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 4,
+    "includes_extra_time": true
+   }
+  },
+  {
+   "id": "pd-2627-r1-sto-fai",
+   "competition_id": "puchar-demo",
+   "season": "2026/27",
+   "round": "1/16 finału",
+   "kickoff": "2026-09-23T18:00:00Z",
+   "home_id": "sto",
+   "away_id": "fai",
+   "venue": "Stonebridge Athletic Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 6,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 9,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "pd-2627-r1-tho-oak",
+   "competition_id": "puchar-demo",
+   "season": "2026/27",
+   "round": "1/16 finału",
+   "kickoff": "2026-09-23T18:00:00Z",
+   "home_id": "tho",
+   "away_id": "oak",
+   "venue": "Thornbury Rovers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 3
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 4,
+    "shots_on_target": 0,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 8,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 11,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r7-npt-elm",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "7. kolejka",
+   "kickoff": "2026-09-26T11:30:00Z",
+   "home_id": "npt",
+   "away_id": "elm",
+   "venue": "Harbour Park",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 4,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 22,
+    "shots_on_target": 10,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r5-fjo-ber",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "5. kolejka",
+   "kickoff": "2026-09-26T11:30:00Z",
+   "home_id": "fjo",
+   "away_id": "ber",
+   "venue": "Fjordby IF Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 20,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 6,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r7-oak-riv",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "7. kolejka",
+   "kickoff": "2026-09-26T13:00:00Z",
+   "home_id": "oak",
+   "away_id": "riv",
+   "venue": "Oakmere Stadium",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 1,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 19,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r7-cop-bay",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "7. kolejka",
+   "kickoff": "2026-09-26T14:00:00Z",
+   "home_id": "cop",
+   "away_id": "bay",
+   "venue": "Copperfield SC Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 3,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 9,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 8,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 6,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r7-lin-sto",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "7. kolejka",
+   "kickoff": "2026-09-26T14:00:00Z",
+   "home_id": "lin",
+   "away_id": "sto",
+   "venue": "Lindale Harriers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 3,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 7,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 16,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 6,
+    "yellow_cards": 5,
+    "red_cards": 1,
+    "shots": 12,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r5-ish-nor",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "5. kolejka",
+   "kickoff": "2026-09-26T14:00:00Z",
+   "home_id": "ish",
+   "away_id": "nor",
+   "venue": "Isholm SK Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 7,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 4,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r5-ska-lun",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "5. kolejka",
+   "kickoff": "2026-09-26T14:00:00Z",
+   "home_id": "ska",
+   "away_id": "lun",
+   "venue": "Skarvik BK Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 3
+   },
+   "home_stats": {
+    "corners": 8,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 19,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 1,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r7-kes-gra",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "7. kolejka",
+   "kickoff": "2026-09-26T15:00:00Z",
+   "home_id": "kes",
+   "away_id": "gra",
+   "venue": "Kestrel Lane",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 3
+   },
+   "home_stats": {
+    "corners": 9,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 6,
+    "shots_on_target": 0,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r7-hol-mar",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "7. kolejka",
+   "kickoff": "2026-09-26T16:30:00Z",
+   "home_id": "hol",
+   "away_id": "mar",
+   "venue": "Holloway Albion Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 4,
+    "yellow_cards": 7,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r7-wes-fai",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "7. kolejka",
+   "kickoff": "2026-09-26T16:30:00Z",
+   "home_id": "wes",
+   "away_id": "fai",
+   "venue": "Westbrook Forest Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 7,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 9,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r7-ash-tho",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "7. kolejka",
+   "kickoff": "2026-09-26T19:00:00Z",
+   "home_id": "ash",
+   "away_id": "tho",
+   "venue": "Mill Road",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 8,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 11,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ed-2627-md2-kol-npt",
+   "competition_id": "euro-demo",
+   "season": "2026/27",
+   "round": "2. kolejka grupy",
+   "kickoff": "2026-10-01T18:45:00Z",
+   "home_id": "kol",
+   "away_id": "npt",
+   "venue": "Rapid Kolsk Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 2
+   },
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ed-2627-md2-spa-dyv",
+   "competition_id": "euro-demo",
+   "season": "2026/27",
+   "round": "2. kolejka grupy",
+   "kickoff": "2026-10-01T18:45:00Z",
+   "home_id": "spa",
+   "away_id": "dyv",
+   "venue": "Sporting Aurel Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 7,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 11,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ed-2627-md2-bra-mar",
+   "competition_id": "euro-demo",
+   "season": "2026/27",
+   "round": "2. kolejka grupy",
+   "kickoff": "2026-10-01T20:00:00Z",
+   "home_id": "bra",
+   "away_id": "mar",
+   "venue": "Bravia Union Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 3,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 7,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 8,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ed-2627-md2-mon-hel",
+   "competition_id": "euro-demo",
+   "season": "2026/27",
+   "round": "2. kolejka grupy",
+   "kickoff": "2026-10-01T20:00:00Z",
+   "home_id": "mon",
+   "away_id": "hel",
+   "venue": "Real Montaro Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 4
+   },
+   "home_stats": {
+    "corners": 1,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 16,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r8-lin-npt",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "8. kolejka",
+   "kickoff": "2026-10-03T11:30:00Z",
+   "home_id": "lin",
+   "away_id": "npt",
+   "venue": "Lindale Harriers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 17,
+    "shots_on_target": 8,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 5,
+    "red_cards": 0,
+    "shots": 7,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r6-ska-fjo",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "6. kolejka",
+   "kickoff": "2026-10-03T11:30:00Z",
+   "home_id": "ska",
+   "away_id": "fjo",
+   "venue": "Skarvik BK Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 6,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 8,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 19,
+    "shots_on_target": 8,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 17,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r8-kes-tho",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "8. kolejka",
+   "kickoff": "2026-10-03T13:00:00Z",
+   "home_id": "kes",
+   "away_id": "tho",
+   "venue": "Kestrel Lane",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 8,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 2,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 1,
+    "yellow_cards": 5,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r8-elm-bay",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "8. kolejka",
+   "kickoff": "2026-10-03T14:00:00Z",
+   "home_id": "elm",
+   "away_id": "bay",
+   "venue": "Elmstead Rangers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 8,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 6,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 1,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r8-wes-sto",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "8. kolejka",
+   "kickoff": "2026-10-03T14:00:00Z",
+   "home_id": "wes",
+   "away_id": "sto",
+   "venue": "Westbrook Forest Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 8,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 21,
+    "shots_on_target": 8,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r6-ber-nor",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "6. kolejka",
+   "kickoff": "2026-10-03T14:00:00Z",
+   "home_id": "ber",
+   "away_id": "nor",
+   "venue": "Bergstad IL Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 2,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 17,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 6,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 7,
+    "shots_on_target": 0,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r6-ish-lun",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "6. kolejka",
+   "kickoff": "2026-10-03T14:00:00Z",
+   "home_id": "ish",
+   "away_id": "lun",
+   "venue": "Isholm SK Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 8,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 4,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 11,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r8-oak-gra",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "8. kolejka",
+   "kickoff": "2026-10-03T15:00:00Z",
+   "home_id": "oak",
+   "away_id": "gra",
+   "venue": "Oakmere Stadium",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 4,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 1,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 5,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r8-ash-fai",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "8. kolejka",
+   "kickoff": "2026-10-03T16:30:00Z",
+   "home_id": "ash",
+   "away_id": "fai",
+   "venue": "Mill Road",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 3,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 16,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 8,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 6,
+    "shots_on_target": 1,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r8-cop-mar",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "8. kolejka",
+   "kickoff": "2026-10-03T16:30:00Z",
+   "home_id": "cop",
+   "away_id": "mar",
+   "venue": "Copperfield SC Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 4
+   },
+   "home_stats": {
+    "corners": 2,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 6,
+    "shots_on_target": 1,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 8,
+    "yellow_cards": 5,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r8-hol-riv",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "8. kolejka",
+   "kickoff": "2026-10-03T19:00:00Z",
+   "home_id": "hol",
+   "away_id": "riv",
+   "venue": "Holloway Albion Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 2,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 17,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 17,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r7-fjo-nor",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "7. kolejka",
+   "kickoff": "2026-10-10T11:30:00Z",
+   "home_id": "fjo",
+   "away_id": "nor",
+   "venue": "Fjordby IF Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 6,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 4,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 16,
+    "shots_on_target": 9,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 1,
+    "red_cards": 1,
+    "shots": 14,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r7-ber-lun",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "7. kolejka",
+   "kickoff": "2026-10-10T14:00:00Z",
+   "home_id": "ber",
+   "away_id": "lun",
+   "venue": "Bergstad IL Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 3
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 21,
+    "shots_on_target": 10,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r7-ish-ska",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "7. kolejka",
+   "kickoff": "2026-10-10T14:00:00Z",
+   "home_id": "ish",
+   "away_id": "ska",
+   "venue": "Isholm SK Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 3
+   },
+   "home_stats": {
+    "corners": 4,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r9-npt-bay",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "9. kolejka",
+   "kickoff": "2026-10-17T11:30:00Z",
+   "home_id": "npt",
+   "away_id": "bay",
+   "venue": "Harbour Park",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 4,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 8,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 16,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 6,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 1,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r8-ish-fjo",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "8. kolejka",
+   "kickoff": "2026-10-17T11:30:00Z",
+   "home_id": "ish",
+   "away_id": "fjo",
+   "venue": "Isholm SK Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 11,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 6,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r9-hol-gra",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "9. kolejka",
+   "kickoff": "2026-10-17T13:00:00Z",
+   "home_id": "hol",
+   "away_id": "gra",
+   "venue": "Holloway Albion Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 3,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 7,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 16,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r9-elm-mar",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "9. kolejka",
+   "kickoff": "2026-10-17T14:00:00Z",
+   "home_id": "elm",
+   "away_id": "mar",
+   "venue": "Elmstead Rangers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 9,
+    "yellow_cards": 6,
+    "red_cards": 0,
+    "shots": 4,
+    "shots_on_target": 1,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 6,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r9-wes-lin",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "9. kolejka",
+   "kickoff": "2026-10-17T14:00:00Z",
+   "home_id": "wes",
+   "away_id": "lin",
+   "venue": "Westbrook Forest Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 0,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 8,
+    "shots_on_target": 1,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r8-ber-ska",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "8. kolejka",
+   "kickoff": "2026-10-17T14:00:00Z",
+   "home_id": "ber",
+   "away_id": "ska",
+   "venue": "Bergstad IL Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 3,
+    "away_90": 4
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r8-nor-lun",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "8. kolejka",
+   "kickoff": "2026-10-17T14:00:00Z",
+   "home_id": "nor",
+   "away_id": "lun",
+   "venue": "Nordvik FK Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 16,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r9-oak-tho",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "9. kolejka",
+   "kickoff": "2026-10-17T15:00:00Z",
+   "home_id": "oak",
+   "away_id": "tho",
+   "venue": "Oakmere Stadium",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 5,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 7,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 4,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r9-ash-sto",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "9. kolejka",
+   "kickoff": "2026-10-17T16:30:00Z",
+   "home_id": "ash",
+   "away_id": "sto",
+   "venue": "Mill Road",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 16,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r9-cop-riv",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "9. kolejka",
+   "kickoff": "2026-10-17T16:30:00Z",
+   "home_id": "cop",
+   "away_id": "riv",
+   "venue": "Copperfield SC Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 3
+   },
+   "home_stats": {
+    "corners": 2,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 8,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r9-kes-fai",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "9. kolejka",
+   "kickoff": "2026-10-17T19:00:00Z",
+   "home_id": "kes",
+   "away_id": "fai",
+   "venue": "Kestrel Lane",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 4,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 6,
+    "yellow_cards": 5,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ed-2627-md3-kol-spa",
+   "competition_id": "euro-demo",
+   "season": "2026/27",
+   "round": "3. kolejka grupy",
+   "kickoff": "2026-10-22T18:45:00Z",
+   "home_id": "kol",
+   "away_id": "spa",
+   "venue": "Rapid Kolsk Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 3,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 19,
+    "shots_on_target": 8,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ed-2627-md3-npt-dyv",
+   "competition_id": "euro-demo",
+   "season": "2026/27",
+   "round": "3. kolejka grupy",
+   "kickoff": "2026-10-22T18:45:00Z",
+   "home_id": "npt",
+   "away_id": "dyv",
+   "venue": "Harbour Park",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 3,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 20,
+    "shots_on_target": 10,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ed-2627-md3-bra-mon",
+   "competition_id": "euro-demo",
+   "season": "2026/27",
+   "round": "3. kolejka grupy",
+   "kickoff": "2026-10-22T20:00:00Z",
+   "home_id": "bra",
+   "away_id": "mon",
+   "venue": "Bravia Union Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 3,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 11,
+    "shots_on_target": 1,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 21,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ed-2627-md3-mar-hel",
+   "competition_id": "euro-demo",
+   "season": "2026/27",
+   "round": "3. kolejka grupy",
+   "kickoff": "2026-10-22T20:00:00Z",
+   "home_id": "mar",
+   "away_id": "hel",
+   "venue": "Marlow Bowl",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 8,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 8,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 7,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r10-wes-npt",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "10. kolejka",
+   "kickoff": "2026-10-24T11:30:00Z",
+   "home_id": "wes",
+   "away_id": "npt",
+   "venue": "Westbrook Forest Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 7,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 17,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r9-fjo-lun",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "9. kolejka",
+   "kickoff": "2026-10-24T11:30:00Z",
+   "home_id": "fjo",
+   "away_id": "lun",
+   "venue": "Fjordby IF Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 3,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 9,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 7,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r10-oak-fai",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "10. kolejka",
+   "kickoff": "2026-10-24T13:00:00Z",
+   "home_id": "oak",
+   "away_id": "fai",
+   "venue": "Oakmere Stadium",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 5,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 9,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r10-ash-lin",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "10. kolejka",
+   "kickoff": "2026-10-24T14:00:00Z",
+   "home_id": "ash",
+   "away_id": "lin",
+   "venue": "Mill Road",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 2,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 11,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 9,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 19,
+    "shots_on_target": 9,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r10-bay-mar",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "10. kolejka",
+   "kickoff": "2026-10-24T14:00:00Z",
+   "home_id": "bay",
+   "away_id": "mar",
+   "venue": "Bayside Wanderers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 3
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 12,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r9-ber-ish",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "9. kolejka",
+   "kickoff": "2026-10-24T14:00:00Z",
+   "home_id": "ber",
+   "away_id": "ish",
+   "venue": "Bergstad IL Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 4,
+    "away_90": 3
+   },
+   "home_stats": {
+    "corners": 4,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r9-nor-ska",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "9. kolejka",
+   "kickoff": "2026-10-24T14:00:00Z",
+   "home_id": "nor",
+   "away_id": "ska",
+   "venue": "Nordvik FK Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 5
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 7,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r10-hol-tho",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "10. kolejka",
+   "kickoff": "2026-10-24T15:00:00Z",
+   "home_id": "hol",
+   "away_id": "tho",
+   "venue": "Holloway Albion Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 6,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r10-elm-riv",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "10. kolejka",
+   "kickoff": "2026-10-24T16:30:00Z",
+   "home_id": "elm",
+   "away_id": "riv",
+   "venue": "Elmstead Rangers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 2,
+    "red_cards": 1,
+    "shots": 10,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 7,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r10-kes-sto",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "10. kolejka",
+   "kickoff": "2026-10-24T16:30:00Z",
+   "home_id": "kes",
+   "away_id": "sto",
+   "venue": "Kestrel Lane",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 8,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 17,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r10-cop-gra",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "10. kolejka",
+   "kickoff": "2026-10-24T19:00:00Z",
+   "home_id": "cop",
+   "away_id": "gra",
+   "venue": "Copperfield SC Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 8,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 8,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "pd-2627-r2-fai-wes",
+   "competition_id": "puchar-demo",
+   "season": "2026/27",
+   "round": "1/8 finału",
+   "kickoff": "2026-10-28T18:30:00Z",
+   "home_id": "fai",
+   "away_id": "wes",
+   "venue": "Fairhaven Town Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 2,
+    "home_aet": 2,
+    "away_aet": 2,
+    "home_pens": 5,
+    "away_pens": 3
+   },
+   "home_stats": {
+    "corners": 3,
+    "yellow_cards": 7,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 4,
+    "includes_extra_time": true
+   },
+   "away_stats": {
+    "corners": 6,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 23,
+    "shots_on_target": 5,
+    "includes_extra_time": true
+   }
+  },
+  {
+   "id": "pd-2627-r2-gra-riv",
+   "competition_id": "puchar-demo",
+   "season": "2026/27",
+   "round": "1/8 finału",
+   "kickoff": "2026-10-28T18:30:00Z",
+   "home_id": "gra",
+   "away_id": "riv",
+   "venue": "Quarry Field",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 1,
+    "home_aet": 1,
+    "away_aet": 2
+   },
+   "home_stats": {
+    "corners": 7,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 21,
+    "shots_on_target": 5,
+    "includes_extra_time": true
+   },
+   "away_stats": {
+    "corners": 11,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 18,
+    "shots_on_target": 4,
+    "includes_extra_time": true
+   }
+  },
+  {
+   "id": "pd-2627-r2-kes-npt",
+   "competition_id": "puchar-demo",
+   "season": "2026/27",
+   "round": "1/8 finału",
+   "kickoff": "2026-10-28T18:30:00Z",
+   "home_id": "kes",
+   "away_id": "npt",
+   "venue": "Kestrel Lane",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 4,
+    "shots_on_target": 1,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 11,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "pd-2627-r2-oak-mar",
+   "competition_id": "puchar-demo",
+   "season": "2026/27",
+   "round": "1/8 finału",
+   "kickoff": "2026-10-28T18:30:00Z",
+   "home_id": "oak",
+   "away_id": "mar",
+   "venue": "Oakmere Stadium",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 1,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 7,
+    "shots_on_target": 1,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 8,
+    "yellow_cards": 3,
+    "red_cards": 1,
+    "shots": 14,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r11-npt-mar",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "11. kolejka",
+   "kickoff": "2026-10-31T11:30:00Z",
+   "home_id": "npt",
+   "away_id": "mar",
+   "venue": "Harbour Park",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 3,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 2,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 7,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r10-ber-fjo",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "10. kolejka",
+   "kickoff": "2026-10-31T11:30:00Z",
+   "home_id": "ber",
+   "away_id": "fjo",
+   "venue": "Bergstad IL Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 7,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 19,
+    "shots_on_target": 11,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 16,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r11-cop-tho",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "11. kolejka",
+   "kickoff": "2026-10-31T13:00:00Z",
+   "home_id": "cop",
+   "away_id": "tho",
+   "venue": "Copperfield SC Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 7,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 16,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 2,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 7,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r11-ash-wes",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "11. kolejka",
+   "kickoff": "2026-10-31T14:00:00Z",
+   "home_id": "ash",
+   "away_id": "wes",
+   "venue": "Mill Road",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 8,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 7,
+    "shots_on_target": 1,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 8,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 11,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r11-bay-riv",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "11. kolejka",
+   "kickoff": "2026-10-31T14:00:00Z",
+   "home_id": "bay",
+   "away_id": "riv",
+   "venue": "Bayside Wanderers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 3,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 7,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 11,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r10-lun-ska",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "10. kolejka",
+   "kickoff": "2026-10-31T14:00:00Z",
+   "home_id": "lun",
+   "away_id": "ska",
+   "venue": "Lunde FK Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 19,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 2,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "lp-2627-r10-nor-ish",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "10. kolejka",
+   "kickoff": "2026-10-31T14:00:00Z",
+   "home_id": "nor",
+   "away_id": "ish",
+   "venue": "Nordvik FK Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 4,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 18,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r11-hol-fai",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "11. kolejka",
+   "kickoff": "2026-10-31T15:00:00Z",
+   "home_id": "hol",
+   "away_id": "fai",
+   "venue": "Holloway Albion Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 20,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r11-elm-gra",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "11. kolejka",
+   "kickoff": "2026-10-31T16:30:00Z",
+   "home_id": "elm",
+   "away_id": "gra",
+   "venue": "Elmstead Rangers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 4,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 4,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 7,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r11-kes-lin",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "11. kolejka",
+   "kickoff": "2026-10-31T16:30:00Z",
+   "home_id": "kes",
+   "away_id": "lin",
+   "venue": "Kestrel Lane",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 4,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 19,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 9,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r11-oak-sto",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "11. kolejka",
+   "kickoff": "2026-10-31T19:00:00Z",
+   "home_id": "oak",
+   "away_id": "sto",
+   "venue": "Oakmere Stadium",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 10,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 17,
+    "shots_on_target": 8,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 1,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 7,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r12-ash-npt",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "12. kolejka",
+   "kickoff": "2026-11-07T11:30:00Z",
+   "home_id": "ash",
+   "away_id": "npt",
+   "venue": "Mill Road",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 3,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 7,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 15,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r12-hol-sto",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "12. kolejka",
+   "kickoff": "2026-11-07T13:00:00Z",
+   "home_id": "hol",
+   "away_id": "sto",
+   "venue": "Holloway Albion Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 7,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 8,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 5,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r12-kes-wes",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "12. kolejka",
+   "kickoff": "2026-11-07T14:00:00Z",
+   "home_id": "kes",
+   "away_id": "wes",
+   "venue": "Kestrel Lane",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 8,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 16,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r12-mar-riv",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "12. kolejka",
+   "kickoff": "2026-11-07T14:00:00Z",
+   "home_id": "mar",
+   "away_id": "riv",
+   "venue": "Marlow Bowl",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 8,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 16,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 16,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r12-cop-fai",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "12. kolejka",
+   "kickoff": "2026-11-07T15:00:00Z",
+   "home_id": "cop",
+   "away_id": "fai",
+   "venue": "Copperfield SC Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 5
+   },
+   "home_stats": {
+    "corners": 2,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 6,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r12-bay-gra",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "12. kolejka",
+   "kickoff": "2026-11-07T16:30:00Z",
+   "home_id": "bay",
+   "away_id": "gra",
+   "venue": "Bayside Wanderers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 10,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 16,
+    "shots_on_target": 8,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r12-oak-lin",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "12. kolejka",
+   "kickoff": "2026-11-07T16:30:00Z",
+   "home_id": "oak",
+   "away_id": "lin",
+   "venue": "Oakmere Stadium",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 3,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 11,
+    "yellow_cards": 5,
+    "red_cards": 0,
+    "shots": 21,
+    "shots_on_target": 8,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r12-elm-tho",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "12. kolejka",
+   "kickoff": "2026-11-07T19:00:00Z",
+   "home_id": "elm",
+   "away_id": "tho",
+   "venue": "Elmstead Rangers Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 3,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 3,
+    "yellow_cards": 3,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 4,
+    "yellow_cards": 4,
+    "red_cards": 0,
+    "shots": 8,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "pd-2627-qf-orl-fai",
+   "competition_id": "puchar-demo",
+   "season": "2026/27",
+   "round": "ćwierćfinał",
+   "kickoff": "2026-11-11T18:00:00Z",
+   "home_id": "orl",
+   "away_id": "fai",
+   "venue": "Orlik Demo Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 3
+   },
+   "home_stats": {
+    "corners": 5,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 1,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 8,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 16,
+    "shots_on_target": 5,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "pd-2627-qf-sok-kes",
+   "competition_id": "puchar-demo",
+   "season": "2026/27",
+   "round": "ćwierćfinał",
+   "kickoff": "2026-11-11T18:00:00Z",
+   "home_id": "sok",
+   "away_id": "kes",
+   "venue": "Sokół Demo Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 1,
+    "home_aet": 1,
+    "away_aet": 1,
+    "home_pens": 4,
+    "away_pens": 5
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 5,
+    "red_cards": 0,
+    "shots": 12,
+    "shots_on_target": 3,
+    "includes_extra_time": true
+   },
+   "away_stats": {
+    "corners": 9,
+    "yellow_cards": 7,
+    "red_cards": 0,
+    "shots": 24,
+    "shots_on_target": 9,
+    "includes_extra_time": true
+   }
+  },
+  {
+   "id": "ed-2627-md4-kol-dyv",
+   "competition_id": "euro-demo",
+   "season": "2026/27",
+   "round": "4. kolejka grupy",
+   "kickoff": "2026-11-12T18:45:00Z",
+   "home_id": "kol",
+   "away_id": "dyv",
+   "venue": "Rapid Kolsk Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 0,
+    "away_90": 0
+   },
+   "home_stats": {
+    "corners": 8,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 6,
+    "yellow_cards": 5,
+    "red_cards": 0,
+    "shots": 11,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ed-2627-md4-spa-npt",
+   "competition_id": "euro-demo",
+   "season": "2026/27",
+   "round": "4. kolejka grupy",
+   "kickoff": "2026-11-12T18:45:00Z",
+   "home_id": "spa",
+   "away_id": "npt",
+   "venue": "Sporting Aurel Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 1,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 10,
+    "yellow_cards": 1,
+    "red_cards": 0,
+    "shots": 22,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 7,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 10,
+    "shots_on_target": 3,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ed-2627-md4-bra-hel",
+   "competition_id": "euro-demo",
+   "season": "2026/27",
+   "round": "4. kolejka grupy",
+   "kickoff": "2026-11-12T20:00:00Z",
+   "home_id": "bra",
+   "away_id": "hel",
+   "venue": "Bravia Union Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 1
+   },
+   "home_stats": {
+    "corners": 7,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 13,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 3,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 14,
+    "shots_on_target": 7,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ed-2627-md4-mon-mar",
+   "competition_id": "euro-demo",
+   "season": "2026/27",
+   "round": "4. kolejka grupy",
+   "kickoff": "2026-11-12T20:00:00Z",
+   "home_id": "mon",
+   "away_id": "mar",
+   "venue": "Real Montaro Ground",
+   "neutral_venue": false,
+   "status": "finished",
+   "score": {
+    "home_90": 2,
+    "away_90": 2
+   },
+   "home_stats": {
+    "corners": 6,
+    "yellow_cards": 2,
+    "red_cards": 0,
+    "shots": 16,
+    "shots_on_target": 6,
+    "includes_extra_time": false
+   },
+   "away_stats": {
+    "corners": 10,
+    "yellow_cards": 0,
+    "red_cards": 0,
+    "shots": 11,
+    "shots_on_target": 2,
+    "includes_extra_time": false
+   }
+  },
+  {
+   "id": "ld-2627-r13-bay-tho",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "13. kolejka",
+   "kickoff": "2026-11-14T11:30:00Z",
+   "home_id": "bay",
+   "away_id": "tho",
+   "venue": "Bayside Wanderers Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ld-2627-r13-cop-sto",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "13. kolejka",
+   "kickoff": "2026-11-14T11:30:00Z",
+   "home_id": "cop",
+   "away_id": "sto",
+   "venue": "Copperfield SC Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "lp-2627-r11-fjo-ska",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "11. kolejka",
+   "kickoff": "2026-11-14T13:00:00Z",
+   "home_id": "fjo",
+   "away_id": "ska",
+   "venue": "Fjordby IF Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ld-2627-r13-hol-lin",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "13. kolejka",
+   "kickoff": "2026-11-14T14:00:00Z",
+   "home_id": "hol",
+   "away_id": "lin",
+   "venue": "Holloway Albion Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ld-2627-r13-kes-ash",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "13. kolejka",
+   "kickoff": "2026-11-14T14:00:00Z",
+   "home_id": "kes",
+   "away_id": "ash",
+   "venue": "Kestrel Lane",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ld-2627-r13-oak-wes",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "13. kolejka",
+   "kickoff": "2026-11-14T14:00:00Z",
+   "home_id": "oak",
+   "away_id": "wes",
+   "venue": "Oakmere Stadium",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "lp-2627-r11-nor-ber",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "11. kolejka",
+   "kickoff": "2026-11-14T15:00:00Z",
+   "home_id": "nor",
+   "away_id": "ber",
+   "venue": "Nordvik FK Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ld-2627-r13-elm-fai",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "13. kolejka",
+   "kickoff": "2026-11-14T16:30:00Z",
+   "home_id": "elm",
+   "away_id": "fai",
+   "venue": "Elmstead Rangers Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ld-2627-r13-mar-gra",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "13. kolejka",
+   "kickoff": "2026-11-14T16:30:00Z",
+   "home_id": "mar",
+   "away_id": "gra",
+   "venue": "Marlow Bowl",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "lp-2627-r11-lun-ish",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "11. kolejka",
+   "kickoff": "2026-11-14T17:00:00Z",
+   "home_id": "lun",
+   "away_id": "ish",
+   "venue": "Lunde FK Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ld-2627-r13-npt-riv",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "13. kolejka",
+   "kickoff": "2026-11-14T19:00:00Z",
+   "home_id": "npt",
+   "away_id": "riv",
+   "venue": "Harbour Park",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "pd-2627-qf-jas-mar",
+   "competition_id": "puchar-demo",
+   "season": "2026/27",
+   "round": "ćwierćfinał",
+   "kickoff": "2026-11-18T18:30:00Z",
+   "home_id": "jas",
+   "away_id": "mar",
+   "venue": "Jastrząb Demo Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "pd-2627-qf-zur-riv",
+   "competition_id": "puchar-demo",
+   "season": "2026/27",
+   "round": "ćwierćfinał",
+   "kickoff": "2026-11-18T19:30:00Z",
+   "home_id": "zur",
+   "away_id": "riv",
+   "venue": "Żuraw Demo Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ld-2627-r14-kes-npt",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "14. kolejka",
+   "kickoff": "2026-11-21T11:30:00Z",
+   "home_id": "kes",
+   "away_id": "npt",
+   "venue": "Kestrel Lane",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "lp-2627-r12-nor-fjo",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "12. kolejka",
+   "kickoff": "2026-11-21T11:30:00Z",
+   "home_id": "nor",
+   "away_id": "fjo",
+   "venue": "Nordvik FK Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ld-2627-r14-cop-lin",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "14. kolejka",
+   "kickoff": "2026-11-21T13:00:00Z",
+   "home_id": "cop",
+   "away_id": "lin",
+   "venue": "Copperfield SC Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ld-2627-r14-oak-ash",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "14. kolejka",
+   "kickoff": "2026-11-21T14:00:00Z",
+   "home_id": "oak",
+   "away_id": "ash",
+   "venue": "Oakmere Stadium",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ld-2627-r14-riv-gra",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "14. kolejka",
+   "kickoff": "2026-11-21T14:00:00Z",
+   "home_id": "riv",
+   "away_id": "gra",
+   "venue": "Riverside Arena",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "lp-2627-r12-lun-ber",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "12. kolejka",
+   "kickoff": "2026-11-21T14:00:00Z",
+   "home_id": "lun",
+   "away_id": "ber",
+   "venue": "Lunde FK Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "lp-2627-r12-ska-ish",
+   "competition_id": "liga-polnocna-demo",
+   "season": "2026/27",
+   "round": "12. kolejka",
+   "kickoff": "2026-11-21T14:00:00Z",
+   "home_id": "ska",
+   "away_id": "ish",
+   "venue": "Skarvik BK Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ld-2627-r14-elm-sto",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "14. kolejka",
+   "kickoff": "2026-11-21T15:00:00Z",
+   "home_id": "elm",
+   "away_id": "sto",
+   "venue": "Elmstead Rangers Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ld-2627-r14-hol-wes",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "14. kolejka",
+   "kickoff": "2026-11-21T16:30:00Z",
+   "home_id": "hol",
+   "away_id": "wes",
+   "venue": "Holloway Albion Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ld-2627-r14-mar-tho",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "14. kolejka",
+   "kickoff": "2026-11-21T16:30:00Z",
+   "home_id": "mar",
+   "away_id": "tho",
+   "venue": "Marlow Bowl",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ld-2627-r14-bay-fai",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "14. kolejka",
+   "kickoff": "2026-11-21T19:00:00Z",
+   "home_id": "bay",
+   "away_id": "fai",
+   "venue": "Bayside Wanderers Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ed-2627-md5-dyv-spa",
+   "competition_id": "euro-demo",
+   "season": "2026/27",
+   "round": "5. kolejka grupy",
+   "kickoff": "2026-11-26T18:45:00Z",
+   "home_id": "dyv",
+   "away_id": "spa",
+   "venue": "Dynamo Velik Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ed-2627-md5-npt-kol",
+   "competition_id": "euro-demo",
+   "season": "2026/27",
+   "round": "5. kolejka grupy",
+   "kickoff": "2026-11-26T18:45:00Z",
+   "home_id": "npt",
+   "away_id": "kol",
+   "venue": "Harbour Park",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ed-2627-md5-hel-mon",
+   "competition_id": "euro-demo",
+   "season": "2026/27",
+   "round": "5. kolejka grupy",
+   "kickoff": "2026-11-26T20:00:00Z",
+   "home_id": "hel",
+   "away_id": "mon",
+   "venue": "Helvar 1904 Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ed-2627-md5-mar-bra",
+   "competition_id": "euro-demo",
+   "season": "2026/27",
+   "round": "5. kolejka grupy",
+   "kickoff": "2026-11-26T20:00:00Z",
+   "home_id": "mar",
+   "away_id": "bra",
+   "venue": "Marlow Bowl",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ld-2627-r15-npt-gra",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "15. kolejka",
+   "kickoff": "2026-11-28T11:30:00Z",
+   "home_id": "npt",
+   "away_id": "gra",
+   "venue": "Harbour Park",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ld-2627-r15-bay-sto",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "15. kolejka",
+   "kickoff": "2026-11-28T13:00:00Z",
+   "home_id": "bay",
+   "away_id": "sto",
+   "venue": "Bayside Wanderers Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ld-2627-r15-oak-kes",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "15. kolejka",
+   "kickoff": "2026-11-28T14:00:00Z",
+   "home_id": "oak",
+   "away_id": "kes",
+   "venue": "Oakmere Stadium",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ld-2627-r15-riv-tho",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "15. kolejka",
+   "kickoff": "2026-11-28T14:00:00Z",
+   "home_id": "riv",
+   "away_id": "tho",
+   "venue": "Riverside Arena",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ld-2627-r15-elm-lin",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "15. kolejka",
+   "kickoff": "2026-11-28T15:00:00Z",
+   "home_id": "elm",
+   "away_id": "lin",
+   "venue": "Elmstead Rangers Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ld-2627-r15-hol-ash",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "15. kolejka",
+   "kickoff": "2026-11-28T16:30:00Z",
+   "home_id": "hol",
+   "away_id": "ash",
+   "venue": "Holloway Albion Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ld-2627-r15-mar-fai",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "15. kolejka",
+   "kickoff": "2026-11-28T16:30:00Z",
+   "home_id": "mar",
+   "away_id": "fai",
+   "venue": "Marlow Bowl",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ld-2627-r15-cop-wes",
+   "competition_id": "liga-demo",
+   "season": "2026/27",
+   "round": "15. kolejka",
+   "kickoff": "2026-11-28T19:00:00Z",
+   "home_id": "cop",
+   "away_id": "wes",
+   "venue": "Copperfield SC Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ed-2627-md6-dyv-npt",
+   "competition_id": "euro-demo",
+   "season": "2026/27",
+   "round": "6. kolejka grupy",
+   "kickoff": "2026-12-10T18:45:00Z",
+   "home_id": "dyv",
+   "away_id": "npt",
+   "venue": "Dynamo Velik Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ed-2627-md6-spa-kol",
+   "competition_id": "euro-demo",
+   "season": "2026/27",
+   "round": "6. kolejka grupy",
+   "kickoff": "2026-12-10T18:45:00Z",
+   "home_id": "spa",
+   "away_id": "kol",
+   "venue": "Sporting Aurel Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ed-2627-md6-hel-mar",
+   "competition_id": "euro-demo",
+   "season": "2026/27",
+   "round": "6. kolejka grupy",
+   "kickoff": "2026-12-10T20:00:00Z",
+   "home_id": "hel",
+   "away_id": "mar",
+   "venue": "Helvar 1904 Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  },
+  {
+   "id": "ed-2627-md6-mon-bra",
+   "competition_id": "euro-demo",
+   "season": "2026/27",
+   "round": "6. kolejka grupy",
+   "kickoff": "2026-12-10T20:00:00Z",
+   "home_id": "mon",
+   "away_id": "bra",
+   "venue": "Real Montaro Ground",
+   "neutral_venue": false,
+   "status": "scheduled",
+   "score": null,
+   "home_stats": null,
+   "away_stats": null
+  }
+ ],
+ "coaches": [
+  {
+   "team_id": "npt",
+   "coach": "Adam Rok",
+   "start": "2023-07-01",
+   "end": null
+  },
+  {
+   "team_id": "riv",
+   "coach": "Ivo Brandl",
+   "start": "2022-07-01",
+   "end": "2025-01-09"
+  },
+  {
+   "team_id": "riv",
+   "coach": "Leo Hart",
+   "start": "2025-01-10",
+   "end": null
+  },
+  {
+   "team_id": "kes",
+   "coach": "Olek Mróz",
+   "start": "2021-07-01",
+   "end": "2025-05-31"
+  },
+  {
+   "team_id": "kes",
+   "coach": "Ewa Lind",
+   "start": "2025-06-01",
+   "end": null
+  },
+  {
+   "team_id": "ash",
+   "coach": "Piotr Nowik",
+   "start": "2024-07-01",
+   "end": "2026-10-19"
+  },
+  {
+   "team_id": "ash",
+   "coach": "Marek Zawada",
+   "start": "2026-10-20",
+   "end": null
+  },
+  {
+   "team_id": "mar",
+   "coach": "Iga Sowa",
+   "start": "2024-07-01",
+   "end": null
+  },
+  {
+   "team_id": "gra",
+   "coach": "Tom Reyes",
+   "start": "2023-07-01",
+   "end": "2026-08-19"
+  },
+  {
+   "team_id": "gra",
+   "coach": "Bruno Kos",
+   "start": "2026-08-20",
+   "end": null
+  },
+  {
+   "team_id": "oak",
+   "coach": "Nils Berg",
+   "start": "2024-01-05",
+   "end": null
+  }
+ ],
+ "absences": [
+  {
+   "team_id": "npt",
+   "player": "K. Brandt",
+   "reason": "injury",
+   "status": "confirmed",
+   "importance": "key",
+   "source": "club_statement",
+   "updated_at": "2026-11-14T07:30:00Z"
+  },
+  {
+   "team_id": "npt",
+   "player": "M. Ilić",
+   "reason": "suspension",
+   "status": "confirmed",
+   "importance": "regular",
+   "source": "competition_suspensions",
+   "updated_at": "2026-11-14T07:30:00Z"
+  },
+  {
+   "team_id": "npt",
+   "player": "D. Osei",
+   "reason": "injury",
+   "status": "doubtful",
+   "importance": "key",
+   "source": "press_conference",
+   "updated_at": "2026-11-14T07:30:00Z"
+  },
+  {
+   "team_id": "riv",
+   "player": "S. Duarte",
+   "reason": "injury",
+   "status": "confirmed",
+   "importance": "regular",
+   "source": "club_statement",
+   "updated_at": "2026-11-14T07:30:00Z"
+  },
+  {
+   "team_id": "kes",
+   "player": "P. Varga",
+   "reason": "other",
+   "status": "doubtful",
+   "importance": "key",
+   "source": "press_conference",
+   "updated_at": "2026-11-14T07:30:00Z"
+  },
+  {
+   "team_id": "ash",
+   "player": "R. Moyo",
+   "reason": "suspension",
+   "status": "confirmed",
+   "importance": "key",
+   "source": "competition_suspensions",
+   "updated_at": "2026-11-14T07:30:00Z"
+  },
+  {
+   "team_id": "mar",
+   "player": "T. Hale",
+   "reason": "injury",
+   "status": "confirmed",
+   "importance": "key",
+   "source": "club_statement",
+   "updated_at": "2026-11-14T07:30:00Z"
+  },
+  {
+   "team_id": "mar",
+   "player": "J. Brook",
+   "reason": "injury",
+   "status": "doubtful",
+   "importance": "regular",
+   "source": "press_conference",
+   "updated_at": "2026-11-14T07:30:00Z"
+  }
+ ],
+ "lineups": [
+  {
+   "match_id": "ld-2627-r13-npt-riv",
+   "team_id": "npt",
+   "status": "predicted",
+   "updated_at": "2026-11-14T07:00:00Z"
+  },
+  {
+   "match_id": "ld-2627-r13-npt-riv",
+   "team_id": "riv",
+   "status": "predicted",
+   "updated_at": "2026-11-14T07:00:00Z"
+  }
+ ]
+}
