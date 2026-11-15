@@ -1,6 +1,6 @@
 # Status
 
-Updated 2026-11-14.
+Updated 2026-11-15.
 
 ## Current state: foundation on demo data
 
@@ -15,11 +15,12 @@ Updated 2026-11-14.
 | Data | Fictional demo dataset from a deterministic generator; no real provider |
 | Storage, accounts, notifications, deployment | Not started |
 
-## Checks (2026-11-14, local)
+## Checks
 
-- `cd backend && python -m pytest -q` — PASS (33 tests, includes demo freshness).
-- `cd web && npm run build` — PASS (TypeScript 7.0, Vite 8.3).
-- Manual: Playwright screenshots on 390×844 and 1366×900, no console errors,
+- `cd backend && python -m pytest -q` — PASS (36 tests, includes demo freshness;
+  local 2026-11-15 and GitHub CI on PR #1).
+- `cd web && npm ci && npm run build` — PASS (TypeScript 7.0, Vite 8.3; local and CI).
+- Manual (2026-11-14): Playwright screenshots on 390×844 and 1366×900, no console errors,
   service worker registered, path traversal returns the app shell — PASS.
 - Cross-provider review — NOT_RUN.
 

@@ -7,7 +7,7 @@ agent working estimates, excluding waits for owner decisions, purchases or revie
 
 | # | Package | Scope | Acceptance | Depends on | Estimate |
 | --- | --- | --- | --- | --- | --- |
-| 0 | `work/bk-anfield` Foundation | This repository's current content | Tests and build pass; demo labelled; owner can open both screens | — | done locally |
+| 0 | `work/bk-anfield` Foundation | This repository's current content | Tests and build pass; demo labelled; owner can open both screens | — | done; PR #1 awaits review and owner merge |
 | 1 | `work/bk-bernabeu` Data trial and storage | PostgreSQL schema and migrations, provider mapping, observed-at timestamps, one adapter, ingestion for 3 competitions, 30-fixture comparison | Engine runs on real data for Ekstraklasa, Puchar Polski and one UEFA competition; experiment thresholds reported; no secrets in Git | Owner approves a trial and cost | 3–5 days |
 | 2 | `work/bk-camp-nou` Accounts and preferences | Identity provider decision, backend-for-frontend session, followed teams/competitions, remembered filters, data keyed by issuer and subject | Sign-in works in desktop browser and installed iOS/Android PWA; preferences follow the user across devices | Owner picks the identity option | 3–4 days |
 | 3 | `work/bk-de-kuip` Lists v1 on real data | Threshold calibration, cold start, feedback "więcej/mniej takich" with capped weights, discovery tuning | Two weeks of owner use; top-3 of each list rated useful on most days in a simple log | 1, 2 | 3–4 days + 2 weeks use |

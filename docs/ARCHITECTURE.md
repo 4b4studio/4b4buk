@@ -9,12 +9,14 @@ planned packages (see `ROADMAP.md`).
 Approved naming (hub, 2026-11-14): `4b4` is the owner's private Hub/AI factory,
 `4b4apps` publishes customer products, `4b4factory` is the customer factory product and
 `4b4studio` its first department/MVP. The owner also names 4b4buk as a separately sold
-segment. The hub's office/Factory interface is planned as a static PWA without its own
-application server, accounts or stored keys. 4b4buk needs a server (ingestion,
-statistics, user data, assistant), so it cannot ride on that deployment today. It is a
-separate deployable with a small integration contract, not a micro-service of the hub
-and not a fork. The product-family structure is being settled in the hub; align this
-file with it once approved.
+segment. The owner decided on 2026-11-14 that 4b4buk is separate and isolated: own
+repository, deployment, package and legal assessment, never bundled with 4b4factory
+or 4b4studio (see `DECISIONS.md`). It is a separate deployable with a small
+integration contract, not a micro-service of the hub and not a fork. It needs its own
+server because of licensed sports data with storage and display rights, user accounts
+and the legal isolation of a betting-adjacent product. The hub catalog
+(`tools/product/catalog.json`, proposed in hub PR 4b4studio/studio#27) records the
+product line.
 
 ## Components (one modular monolith)
 
